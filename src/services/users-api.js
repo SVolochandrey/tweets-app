@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://645fd7dfca2d89f7e74eee3b.mockapi.io';
+axios.defaults.baseURL = 'https://6461d84e185dd9877e445b88.mockapi.io/api/v1/';
 
 export const fetchUsers = async (page, limit) => {
   const params = new URLSearchParams({
