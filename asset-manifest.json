@@ -1,24 +1,19 @@
 {
   "files": {
-    "main.css": "/tweets-app/static/css/main.1d034997.css",
-    "main.js": "/tweets-app/static/js/main.7f0a2fda.js",
-    "static/css/258.4b94f691.chunk.css": "/tweets-app/static/css/258.4b94f691.chunk.css",
-    "static/js/258.0aebd614.chunk.js": "/tweets-app/static/js/258.0aebd614.chunk.js",
-    "static/css/263.30a5fd01.chunk.css": "/tweets-app/static/css/263.30a5fd01.chunk.css",
-    "static/js/263.1ef6bf95.chunk.js": "/tweets-app/static/js/263.1ef6bf95.chunk.js",
-    "static/js/787.bd012218.chunk.js": "/tweets-app/static/js/787.bd012218.chunk.js",
-    "static/media/picture.png": "/tweets-app/static/media/picture.032662a2a907475127d7.png",
+    "main.css": "/tweets-app/static/css/main.cd2e038f.css",
+    "main.js": "/tweets-app/static/js/main.2fd9985e.js",
+    "static/js/812.0d0fb54d.chunk.js": "/tweets-app/static/js/812.0d0fb54d.chunk.js",
+    "static/js/729.195023aa.chunk.js": "/tweets-app/static/js/729.195023aa.chunk.js",
+    "static/js/535.d1fbd1b3.chunk.js": "/tweets-app/static/js/535.d1fbd1b3.chunk.js",
     "index.html": "/tweets-app/index.html",
-    "main.1d034997.css.map": "/tweets-app/static/css/main.1d034997.css.map",
-    "main.7f0a2fda.js.map": "/tweets-app/static/js/main.7f0a2fda.js.map",
-    "258.4b94f691.chunk.css.map": "/tweets-app/static/css/258.4b94f691.chunk.css.map",
-    "258.0aebd614.chunk.js.map": "/tweets-app/static/js/258.0aebd614.chunk.js.map",
-    "263.30a5fd01.chunk.css.map": "/tweets-app/static/css/263.30a5fd01.chunk.css.map",
-    "263.1ef6bf95.chunk.js.map": "/tweets-app/static/js/263.1ef6bf95.chunk.js.map",
-    "787.bd012218.chunk.js.map": "/tweets-app/static/js/787.bd012218.chunk.js.map"
+    "main.cd2e038f.css.map": "/tweets-app/static/css/main.cd2e038f.css.map",
+    "main.2fd9985e.js.map": "/tweets-app/static/js/main.2fd9985e.js.map",
+    "812.0d0fb54d.chunk.js.map": "/tweets-app/static/js/812.0d0fb54d.chunk.js.map",
+    "729.195023aa.chunk.js.map": "/tweets-app/static/js/729.195023aa.chunk.js.map",
+    "535.d1fbd1b3.chunk.js.map": "/tweets-app/static/js/535.d1fbd1b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d034997.css",
-    "static/js/main.7f0a2fda.js"
+    "static/css/main.cd2e038f.css",
+    "static/js/main.2fd9985e.js"
   ]
 }
