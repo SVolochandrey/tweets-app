@@ -1,21 +1,15 @@
-import { BallTriangle } from 'react-loader-spinner';
-import css from './Loader.module.css';
+import { InfinitySpin } from "react-loader-spinner";
+import { LoaderBox } from "./Loader.styled";
 
-const Loader = () => {
-  return (
-    <div className={css.loader}>
-      <BallTriangle
-        height={100}
-        width={100}
-        radius={5}
-        color="#471ca9"
-        ariaLabel="ball-triangle-loading"
-        wrapperClass={{}}
-        wrapperStyle=""
-        visible={true}
-      />
-    </div>
-  );
+const Loader = (page) => {
+  if (page) {
+    return (
+      <LoaderBox>
+        <InfinitySpin width="400" color="#573657" />
+      </LoaderBox>
+    );
+  }
+  return <InfinitySpin width="400" color="#573657" />;
 };
 
 export default Loader;

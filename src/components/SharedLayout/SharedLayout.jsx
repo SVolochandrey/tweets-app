@@ -1,35 +1,19 @@
 import { Suspense } from "react";
-import { Outlet, NavLink } from "react-router-dom";
-import css from "./SharedLayout.module.css";
-import Loader from "../Loader";
+import { Outlet } from "react-router-dom";
+import AppBar from "../AppBar/AppBar";
+import { Main } from "./SharedLayout.styled";
 
 const SharedLayout = () => {
   return (
-    <div className={css.container}>
-      <header className={css.header}>
-        <nav className={css.header__nav}>
-          <NavLink
-            className={({ isActive }) => {
-              return isActive ? css.active : css.link;
-            }}
-            to="/"
-          >
-            Home
-          </NavLink>
-          <NavLink
-            className={({ isActive }) => {
-              return isActive ? css.active : css.link;
-            }}
-            to="/cards"
-          >
-            Cards
-          </NavLink>
-        </nav>
-      </header>
-      <Suspense fallback={<Loader />}>
-        <Outlet />
-      </Suspense>
-    </div>
+    <>
+      <AppBar />
+
+      <Main>
+        <Suspense fallback={null}>
+          <Outlet />
+        </Suspense>
+      </Main>
+    </>
   );
 };
 
